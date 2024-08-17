@@ -7,7 +7,13 @@ const nextConfig = {
                 hostname: 'media.timeout.com',
                 port: '',
                 pathname: '/images/**'
-            }
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.thecocktaildb.com',
+                port: '',
+                pathname: '/images/media/**'
+            },
         ]
     }
 };
