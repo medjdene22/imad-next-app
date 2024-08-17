@@ -17,7 +17,7 @@ export default function DrinksList({drinks} : {drinks : DrinkH[]}) {
               alt={drink.strDrink}
               />
             </div>
-            {drink.strDrink}
+            <h1 className="mt-3 pl-8">{drink.strDrink}</h1>
           </Link>
         </li>
       ))}
