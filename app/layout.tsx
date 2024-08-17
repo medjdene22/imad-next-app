@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.className}>
         <Navbar/>
-        <main className="p-10 max-w-6xl mx-auto">
+        <main className="mt-10 p-10 max-w-6xl mx-auto">
           {children}
         </main>
         
